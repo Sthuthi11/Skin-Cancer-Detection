@@ -4,4 +4,7 @@ This project focuses on the classification of skin cancer using deep learning mo
 
 **ResNet** performed better than GoogleNet because of its deeper design and skip connections. These results show that CNNs are effective for classifying skin lesions and can help in early skin cancer diagnosis.
 
-An ensemble of 6 CNN models was also explored to further enhance classification robustness.
+**Ensemble Learning:**
+To further improve accuracy and stability, an ensemble of six CNNs was used:
+  ResNet, GoogleNet, VGG, DenseNet, EfficientNet, and MobileNet
+Voting strategies (soft/hard) were applied to combine predictions and boost performance.
