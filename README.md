@@ -8,6 +8,7 @@ A comparative study between **ResNet** and **GoogleNet** was conducted, varying 
 
 **ResNet** performed better than GoogleNet because of its deeper design and skip connections. These results show that CNNs are effective for classifying skin lesions and can help in early skin cancer diagnosis.
 
+
 **Ensemble Learning:**
 
 To further improve accuracy and stability, an ensemble of six CNNs was used:
@@ -18,7 +19,8 @@ To further improve accuracy and stability, an ensemble of six CNNs was used:
   5. EfficientNet
   6. MobileNet
      
-Voting strategies (soft/hard) were applied to combine predictions and boost performance.
+Voting strategies (soft/hard) were applied to combine predictions.
+
 
 **Visualizations & Metrics:**
 
