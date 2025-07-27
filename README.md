@@ -4,7 +4,7 @@ This project focuses on the classification of skin cancer using deep learning mo
 
 ## ResNet Vs GoogleNet:
 
-A comparative study between **ResNet** and **GoogleNet** was conducted, varying key parameters like epochs (5, 10), optimizers (Adam, SGD), batch sizes (16, 32), and a fixed learning rate (0.0001).
+A comparative study between ResNet and GoogleNet was conducted, varying key parameters like epochs (5, 10), optimizers (Adam, SGD), batch sizes (16, 32), and a fixed learning rate (0.0001).
 
 **ResNet** performed better than **GoogleNet** because of its deeper design and skip connections. These results show that CNNs are effective for classifying skin lesions and can help in early skin cancer diagnosis.
 
@@ -19,7 +19,7 @@ To further improve accuracy and stability, an ensemble of six CNNs was used:
   5. EfficientNet
   6. MobileNet
      
-Voting strategies (soft/hard) were applied to combine predictions.
+**Voting strategies (soft/hard)** were applied to combine predictions.
 
 
 ## Visualizations & Metrics:
